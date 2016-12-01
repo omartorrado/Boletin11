@@ -25,7 +25,7 @@ public class Boletin11 {
         System.out.println("ESCRIBE A SEGUINTE FRASE");
         System.out.println(frase);
         System.out.println("PREME ENTER PARA REMATAR");
-        //En esta version hacemos los calculos de tiempo con instant en lugar de System.ge
+        //En esta version hacemos los calculos de tiempo con instant.now() en lugar de System.currentTimeMillis()
         Instant tiempoInicio = Instant.now();
         //Usamos el nextline() para que copie la frase entera. con next() solo pillaria la siguiente palabra
         String fraseEscrita = sc1.nextLine();
