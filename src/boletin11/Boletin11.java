@@ -8,7 +8,7 @@ package boletin11;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.Scanner;
-
+import java.time.
 /**
  *
  * @author otorradomiguez
@@ -19,7 +19,9 @@ public class Boletin11 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        // Falta la primera parte del ejercicio, comparar fechas.
+        
         Scanner sc1 = new Scanner(System.in);
         String frase = "A documentación é todo aquel conxunto de manuais impresos ou en formato dixital que explique unha aplicación informática";
         System.out.println("ESCRIBE A SEGUINTE FRASE");
